@@ -1,4 +1,4 @@
-# :fire: DiT4SR: Taming Diffusion Transformer for Real-World Image Super-Resolution (ICCV2025)
+# :fire: Time-Aware One Step Diffusion Network for Real-World Image Super-Resolution
 
 <a href='https://arxiv.org/abs/2508.16557'><img src='https://img.shields.io/badge/Paper-arxiv-b31b1b.svg'></a> &nbsp;&nbsp;
 <a href='https://zty557.github.io/TADSR_HomePage/'><img src='https://img.shields.io/badge/Project page-DiT4SR-1bb41b.svg'></a> &nbsp;&nbsp;
@@ -50,4 +50,4 @@ If you find our repo useful for your research, please consider citing our paper:
 
 ## :postbox: Contact
 
-For technical questions, please contact `zty557[AT]gmail.com`
+For technical questions, please contact `zty557@gmail.com`
