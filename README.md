@@ -1,12 +1,12 @@
 # :fire: Time-Aware One Step Diffusion Network for Real-World Image Super-Resolution
 
 <a href='https://arxiv.org/abs/2508.16557'><img src='https://img.shields.io/badge/Paper-arxiv-b31b1b.svg'></a> &nbsp;&nbsp;
-<a href='https://zty557.github.io/TADSR_HomePage/'><img src='https://img.shields.io/badge/Project page-DiT4SR-1bb41b.svg'></a> &nbsp;&nbsp;
+<a href='https://zty557.github.io/TADSR_HomePage/'><img src='https://img.shields.io/badge/Project page-TADSR-1bb41b.svg'></a> &nbsp;&nbsp;
 <a href=''><img src='https://img.shields.io/badge/Space-huggingface-ffd700.svg'></a> &nbsp;&nbsp;
 
 
 
-This is the official [project page](https://zty557.github.io/TADSR_HomePage/) for the paper
+This is the official PyTorch codes for the paper
 
 >**Time-Aware One Step Diffusion Network for Real-World Image Super-Resolution**<br>  [Tainyi Zhang<sup>1</sup>](), [Zhengpeng Duan<sup>1</sup>](), [Peng-Tao Jiang<sup>2</sup>](), [Bo Li Fu<sup>2</sup>](), [MingMing Cheng<sup>1</sup>](), [Chunle Guo<sup>1,3,&dagger;</sup>](), [Chongyi Li<sup>1,3</sup>]() <br>
 > <sup>1</sup> VCIP, CS, Nankai University, <sup>2</sup> vivo Mobile Communication Co. Ltd. , <sup>3</sup> NKIARI, Shenzhen Futian<br>
@@ -21,7 +21,7 @@ This is the official [project page](https://zty557.github.io/TADSR_HomePage/) fo
 
 ## :boom: News
 
-- **2025.07.07** Create this repo and release related code of our paper.
+- **2025.08.25** Create this repo.
 
 ## :runner: TODO
 - [x] Release training and inference code
