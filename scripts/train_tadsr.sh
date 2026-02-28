@@ -1,0 +1,21 @@
+CUDA_VISIBLE_DEVICES="0,1,2,3,4,5,6,7"  accelerate launch --num_processes=8 --main_process_port 29501 train_tadsr.py \
+    --pretrained_model_name_or_path='preset/weights' \
+    --ram_path='preset/weights/ram_swin_large_14m.pth' \
+    --learning_rate=5e-5 \
+    --train_batch_size=2 \
+    --gradient_accumulation_steps=1 \
+    --checkpointing_steps 500 \
+    --mixed_precision='fp16' \
+    --report_to "tensorboard" \
+    --seed 123 \
+    --output_dir='experience/TADSR' \
+    --txt_path 'preset/dataset_list.txt' \
+    --neg_prompt="painting, oil painting, illustration, drawing, art, sketch, cartoon, CG Style, 3D render, unreal engine, blurring, dirty, messy, worst quality, low quality, frames, watermark, signature, jpeg artifacts, deformed, lowres, over-smooth" \
+    --cfg_vsd=7.5 \
+    --lora_rank=4 \
+    --lambda_lpips=2 \
+    --lambda_l2=1 \
+    --lambda_vsd=1 \
+    --lambda_vsd_lora=1 \
+    --tracker_project_name "train_tadsr" \
+    
