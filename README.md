@@ -1,5 +1,7 @@
 # :fire: Time-Aware One Step Diffusion Network for Real-World Image Super-Resolution
 
+🚩 Accepted by CVPR2026
+
 <a href='https://arxiv.org/abs/2508.16557'><img src='https://img.shields.io/badge/Paper-arxiv-b31b1b.svg'></a> &nbsp;&nbsp;
 <a href='https://zty557.github.io/TADSR_HomePage/'><img src='https://img.shields.io/badge/Project page-TADSR-1bb41b.svg'></a> &nbsp;&nbsp;
 <a href=''><img src='https://img.shields.io/badge/Space-huggingface-ffd700.svg'></a> &nbsp;&nbsp;
